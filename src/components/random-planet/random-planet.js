@@ -1,12 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import './random-planet.css';
 
-export default class RandomPlanet extends Component{
+export default class RandomPlanet extends Component {
+
     render() {
-        return(
+        return (
             <div className="random-planet jumbotron rounded">
-                <img src="" className="planet-image"/>
+                <img className="planet-image"
+                     src="https://starwars-visualguide.com/assets/img/planets/5.jpg" />
                 <div>
                     <h4>Planet Name</h4>
                     <ul className="list-group list-group-flush">
@@ -25,6 +27,7 @@ export default class RandomPlanet extends Component{
                     </ul>
                 </div>
             </div>
+
         );
     }
 }

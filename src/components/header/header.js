@@ -3,7 +3,7 @@ import React from 'react';
 import './header.css';
 
 const Header = () => {
-    return(
+    return (
         <div className="header d-flex">
             <h3>
                 <a href="#">
